@@ -1,0 +1,12 @@
+{
+  "mongoose": {
+    "uri": "mongodb://OPENSHIFT_MONGODB_DB_URL/",
+    "options": {
+      "server": {
+        "socketOptions": {
+          "keepAlive": 1
+        }
+      }
+    }
+  }
+}
